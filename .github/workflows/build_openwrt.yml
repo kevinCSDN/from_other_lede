@@ -22,7 +22,9 @@ on:
         description: 'Cache wrt build'
         required: false
         default: 'true'
-
+  schedule:
+    - cron: '0 8 * * 1'  # 每周一早上8点触发编译
+    
 env:
   REPO_URL: https://github.com/Cathgao/openwrt
   REPO_BRANCH: master
