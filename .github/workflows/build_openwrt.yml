@@ -30,7 +30,7 @@ env:
   #REPO_URL: https://github.com/Cathgao/openwrt
 
   #5.4.102
-  REPO_URL: https://github.com/alexhyb/lede
+  REPO_URL: https://github.com/Elrori/lede
 
   
   REPO_BRANCH: master
